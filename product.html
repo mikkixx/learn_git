@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="">
+    <title>Название товара</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Главная страница</a>
+                </li>
+                <li>
+                    <a href="catalog.html">Каталог</a>
+                </li>
+                <li>
+                    <a href="">О нас</a>
+                </li>
+                <li>
+                    <a href="">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-page">
+            <div class="tovar-img-page">
+                <img src="./img/graphiccard.png" alt="" width="600px">
+            </div>
+            <div class="tovar-info-page">
+                <h1>Видеокарта Palit GeForce RTX 5060 Dual</h1>
+                <p>Описание</p>
+                <p>Видеокарта Palit GeForce RTX 5060 Dual [NE75060019P1-GB2063D] поддерживает технологию «0 децибел» и работает бесшумно при сниженных нагрузках. Назначение устройства – сборка и модернизация игровых компьютеров. Видеоадаптер оснащен GPU NVIDIA GeForce RTX 5060, потенциал которого реализует 8-гигабайтная память DDR7 с эффективной частотой 28000 МГц. 3840 универсальных процессоров увеличивают частоту кадров, 30 ядер RT производят аппаратное ускорение трассировки лучей, а 120 тензорных ядер увеличивают производительность при рендеринге. Производительность модели позволяет использовать большинство игр на средних или высоких графических настройках.</p>
+                <div class="price">
+                    31999 руб.
+                </div>
+                <ul>
+                    <li>Интерфейс: PCIe 5.0</li>
+                    <li>Частота видеочипа: от 2280 МГц до 2497 МГц</li>
+                    <li>Видеопамять: 8 ГБ GDDR7</li>
+                </ul>
+                <button id="buyBtn">Купить</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p align="center">Подвал сайта</p>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Главная страница</a>
+                    </li>
+                    <li>
+                        <a href="catalog.html">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="">О нас</a>
+                    </li>
+                    <li>
+                        <a href="">Контакты</a>
+                    </li>
+                    </ul>
+            </nav>
+    </footer>
+    <script>
+        const btn = document.getElementById('buyBtn')
+        btn.addEventListener('click', (e)=>{
+            alert('Поздравляем с покупакой!')
+        })
+    </script>
+</body>
+</html>
